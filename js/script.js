@@ -23,7 +23,7 @@ $(()=>{
 
     $('.eq').click((e)=>{
         num2=Number(state)
-        state="0"
+        state=""
         result=num1
         switch(operation){
             case "+":
